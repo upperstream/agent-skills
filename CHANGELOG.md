@@ -12,4 +12,4 @@
 - Add README with project overview and licensing information.
 
 [Unreleased]: https://github.com/upperstream/agent-skills/compare/20260927...HEAD
-[20260927]: https://github.com/upperstream/agent-skills/tags/20260927
+[20260927]: https://github.com/upperstream/agent-skills/releases/tag/20260927
