@@ -2,6 +2,11 @@
 
 ## [Unreleased][]
 
+### Added
+
+- Add reusable `vcs-commit-message-attribution` skill for commit
+  message attribution.
+
 ## [20260927][] - 2026-09-27
 
 ### Added

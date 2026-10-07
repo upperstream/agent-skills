@@ -4,7 +4,7 @@ This repository contains reusable instructions for AI coding agents.
 Each skill provides focused guidance that an agent can follow when
 working on a task.
 
-## Available skill
+## Available skills
 
 ### `document-standards`
 
@@ -17,6 +17,15 @@ Read the reusable skill at
 Repository-specific agent instructions are in
 `.agents/document-standards/SKILL.md`.
 
+### `vcs-commit-message-attribution`
+
+Guidance for adding an attribution line to commit messages when
+committing changes to a version control system such as Git.  It covers
+attribution format and agent-specific considerations.
+
+Read the reusable skill at
+[`vcs-commit-message-attribution/SKILL.md`](vcs-commit-message-attribution/SKILL.md).
+
 ## Repository layout
 
 ```text
@@ -24,7 +33,9 @@ Repository-specific agent instructions are in
 ├── .agents/
 │   └── document-standards/
 │       └── SKILL.md
-└── document-standards/
+├── document-standards/
+│   └── SKILL.md
+└── vcs-commit-message-attribution/
     └── SKILL.md
 ```
 
