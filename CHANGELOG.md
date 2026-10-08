@@ -7,6 +7,12 @@
 - Add reusable `vcs-commit-message-attribution` skill for commit
   message attribution.
 
+### Changed
+
+- Move the following agent-independent skills into `generic` directory:
+  - `document-standards`
+  - `vcs-commit-message-attribution`
+
 ## [20260927][] - 2026-09-27
 
 ### Added

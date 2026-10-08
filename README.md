@@ -13,7 +13,7 @@ capitalisation, British spelling, line length, Markdown readability, and
 emphasis.
 
 Read the reusable skill at
-[`document-standards/SKILL.md`](document-standards/SKILL.md).
+[`generic/document-standards/SKILL.md`](generic/document-standards/SKILL.md).
 Repository-specific agent instructions are in
 `.agents/document-standards/SKILL.md`.
 
@@ -24,7 +24,7 @@ committing changes to a version control system such as Git.  It covers
 attribution format and agent-specific considerations.
 
 Read the reusable skill at
-[`vcs-commit-message-attribution/SKILL.md`](vcs-commit-message-attribution/SKILL.md).
+[`generic/vcs-commit-message-attribution/SKILL.md`](generic/vcs-commit-message-attribution/SKILL.md).
 
 ## Repository layout
 
@@ -33,10 +33,11 @@ Read the reusable skill at
 ├── .agents/
 │   └── document-standards/
 │       └── SKILL.md
-├── document-standards/
-│   └── SKILL.md
-└── vcs-commit-message-attribution/
-    └── SKILL.md
+└── generic/
+    ├── document-standards/
+    │   └── SKILL.md
+    └── vcs-commit-message-attribution/
+        └── SKILL.md
 ```
 
 ## Licensing

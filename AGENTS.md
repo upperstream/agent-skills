@@ -7,5 +7,11 @@ Follow the repository-specific guidance in
 documentation, including this file.
 
 The reusable `document-standards` skill is maintained at
-`document-standards/SKILL.md`.  Keep that skill distinct from the
-repository-specific agent instructions.
+`generic/document-standards/SKILL.md`.  Keep that skill distinct from
+the repository-specific agent instructions.
+
+## Skills
+
+Maintain reusable, agent-independent skills in the `generic/`
+directory, and agent-specific skills in directories designated for each
+agent (such as `antigravity/`).
