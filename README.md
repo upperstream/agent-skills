@@ -17,6 +17,16 @@ Read the reusable skill at
 Repository-specific agent instructions are in
 `.agents/document-standards/SKILL.md`.
 
+### `export-conversation`
+
+Guidance and a companion script for exporting Antigravity conversation
+history into a formatted Markdown document.  It supports exporting the
+active ongoing conversation or a specified conversation identifier,
+and can optionally omit tool execution details.
+
+Read the skill at
+[`antigravity/export-conversation/SKILL.md`](antigravity/export-conversation/SKILL.md).
+
 ### `vcs-commit-message-attribution`
 
 Guidance for adding an attribution line to commit messages when
@@ -28,10 +38,19 @@ Read the reusable skill at
 
 ## Repository layout
 
+Skills in the `generic/` directory are agent-independent, whilst
+skills in other top-level directories are specific to a certain agent
+(for example, `antigravity/`).
+
 ```text
 .
 ├── .agents/
 │   └── document-standards/
+│       └── SKILL.md
+├── antigravity/
+│   └── export-conversation/
+│       ├── scripts/
+│       │   └── export_conversation.js
 │       └── SKILL.md
 └── generic/
     ├── document-standards/

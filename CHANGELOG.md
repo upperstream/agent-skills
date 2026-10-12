@@ -6,6 +6,8 @@
 
 - Add reusable `vcs-commit-message-attribution` skill for commit
   message attribution.
+- Add `export-conversation` skill and companion helper script for
+  Antigravity.
 
 ### Changed
 
