@@ -14,6 +14,9 @@
 - Move the following agent-independent skills into `generic` directory:
   - `document-standards`
   - `vcs-commit-message-attribution`
+- Update `vcs-commit-message-attribution` skill so that Antigravity uses
+  the attribution line "Assisted-By: Harness name (Model name)" rather
+  than "Co-Authored-By:", and increment its minor version to 0.1.0.
 
 ## [20260927][] - 2026-09-27
 
