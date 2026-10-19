@@ -14,9 +14,11 @@
 - Move the following agent-independent skills into `generic` directory:
   - `document-standards`
   - `vcs-commit-message-attribution`
-- Update `vcs-commit-message-attribution` skill so that Antigravity uses
-  the attribution line "Assisted-By: Harness name (Model name)" rather
-  than "Co-Authored-By:", and increment its minor version to 0.1.0.
+- Update `vcs-commit-message-attribution` skill to use `Co-Authored-By:`
+  only for agents with an authorised email address and `Assisted-By:`
+  otherwise.  Require Antigravity and Hermes Agent to use `Assisted-By:`
+  to avoid unrelated GitHub user mappings, and increment the skill
+  version to 1.0.0.
 
 ## [20260927][] - 2026-09-27
 
