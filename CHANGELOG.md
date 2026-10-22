@@ -1,6 +1,6 @@
 # CHANGELOG
 
-## [Unreleased][]
+## [20261023][]
 
 ### Added
 
@@ -28,7 +28,7 @@
   to avoid unrelated GitHub user mappings, and increment the skill
   version to 1.0.0.
 
-## [20260927][] - 2026-09-27
+## [20260927][]
 
 ### Added
 
@@ -37,5 +37,5 @@
   instructions.
 - Add README with project overview and licensing information.
 
-[Unreleased]: https://github.com/upperstream/agent-skills/compare/20260927...HEAD
+[20261023]: https://github.com/upperstream/agent-skills/compare/20260927...20261023
 [20260927]: https://github.com/upperstream/agent-skills/releases/tag/20260927
