@@ -4,6 +4,14 @@
 
 ### Added
 
+- Add a project adoption guide for `pre-commit-documentation`, covering
+  direct rules in AGENTS.md and verification without installing a
+  separate skill.
+- Add reusable `pre-commit-documentation` skill version 0.1.0 and
+  corresponding repository instructions in AGENTS.md for
+  documentation preparation before committing.  Update an existing
+  changelog automatically for every commit; do not create a missing
+  changelog unless explicitly instructed.
 - Add reusable `vcs-commit-message-attribution` skill for commit
   message attribution.
 - Add `export-conversation` skill and companion helper script for
